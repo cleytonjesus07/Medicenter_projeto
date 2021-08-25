@@ -1,4 +1,24 @@
-@media(max-width:600px){
+@media(max-width:940px){
+    
+    .menu_mobile{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mn_line{
+        height: 3px;
+        background-color:#39aae1;
+    }
+
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFF;
+    }
 
     .banner_headline{
         padding: 20px;
@@ -10,12 +30,38 @@
     .banner_headline h2{
         font-size: 27px;
     }
+   
+    .footer_area,.footer_copy,.container{
+        padding: 20px;
+    }
+
+    .footer_area{
+        flex-direction: column;
+        padding: 20px;
+        align-items: flex-start;
+
+    }
+
+    .box_departments{
+        display: flex;
+        min-width: 150px;
+        min-height: 150px;
+
+        background-size: cover;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+}
+
+@media(max-width:600px){
+
     .banner_options{
         height: auto;
         flex-direction: column;
         padding: 10px;
     }
-
+    
     .container{
         flex-direction: column;
     }
@@ -29,11 +75,7 @@
         flex-direction: column;
     }
 
-    .footer_area{
-        flex-direction: column;
-        padding: 20px;
-    }
-
+   
     .footer_copy{
         padding: 20px;
     }
@@ -44,14 +86,6 @@
 
     
 
-    nav ul{
-        flex-direction: column;
-        display: none;
-        position: absolute;
-        left: 0;
-        width: 100%;
-        background-color: #FFF;
-    }
     header{
         height: auto;
     }
@@ -60,16 +94,6 @@
         padding: 20px;
     }
 
-    .menu_mobile{
-        display:flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .mn_line{
-        height: 3px;
-        background-color:#39aae1;
-    }
 
     .widget{
         margin-top:150px ;
@@ -106,12 +130,5 @@
         content: "Pediatria";
     }
 
-    .box_departments{
-        display: flex;
-        min-width: 200px;
-        min-height: 200px;
-        background-size: cover;
-        justify-content: center;
-        align-items: flex-end;
-    }
+ 
 }
