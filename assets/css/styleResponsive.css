@@ -1,0 +1,117 @@
+@media(max-width:600px){
+
+    .banner_headline{
+        padding: 20px;
+    }
+    .banner_headline h1{
+        font-size: 55px;
+    }
+
+    .banner_headline h2{
+        font-size: 27px;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    
+
+    #geral section,#geral aside{
+        padding: 20px;
+    }
+
+    .footer_menu{
+        flex-direction: column;
+    }
+
+    .footer_area{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer_copy{
+        padding: 20px;
+    }
+
+    header .container{
+        flex-direction: row;
+    }
+
+    
+
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFF;
+    }
+    header{
+        height: auto;
+    }
+
+    .logo{
+        padding: 20px;
+    }
+
+    .menu_mobile{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mn_line{
+        height: 3px;
+        background-color:#39aae1;
+    }
+
+    .widget{
+        margin-top:150px ;
+    }
+
+    .widget_body{
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .widget_body > a div::after{
+        font-weight: bold;
+        color: black;
+    }
+
+    .widget_body > a:nth-child(1) div:after{
+        content: "Cardiologista";
+    }
+    .widget_body > a:nth-child(2) div:after{
+        content: "Nutricionista";
+    }
+    .widget_body > a:nth-child(3) div:after{
+        content: "Fisioterapia";
+    }
+    .widget_body > a:nth-child(4) div:after{
+        content: "Dentista";
+    }
+    .widget_body > a:nth-child(5) div:after{
+        content: "Otorrino";
+    }
+    .widget_body > a:nth-child(6) div:after{
+        content: "Pediatria";
+    }
+
+    .box_departments{
+        display: flex;
+        min-width: 200px;
+        min-height: 200px;
+        background-size: cover;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
